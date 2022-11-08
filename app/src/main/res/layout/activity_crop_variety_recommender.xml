@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:showIn="@layout/activity_survey"
+            tools:context=".activities.SurveyActivity">
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/States"
+                />
+            <Spinner
+                android:id="@+id/spinner2"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/District"
+                />
+            <Spinner
+                android:id="@+id/crop_Season_Spinner"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/CropSeason"
+                />
+            <Spinner
+                android:id="@+id/crop_Year_Spinner"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Crop_Year"
+                />
+
+            <Spinner
+                android:id="@+id/crop_Soil_Spinner"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Crop_Soil"
+                />
+            <EditText
+                android:id="@+id/nitrogen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:hint="Enter Value of Nitrogen" />
+            <EditText
+                android:id="@+id/phosphorous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:hint="Enter Value of Phosphorous" />
+            <EditText
+                android:id="@+id/potassium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:hint="Enter Value of Potassium" />
+            <EditText
+                android:id="@+id/ph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:hint="Enter Value of PH" />
+            <EditText
+                android:id="@+id/rainfall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:hint="Enter Value of Rainfall(in mm)" />
+            <EditText
+                android:id="@+id/fieldAreaEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numeric="decimal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:hint="Enter Field Area in Hecters" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Predict" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="58dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:elevation="2dp"
+                android:theme="@style/progressBarBlue" />
+            <TextView
+                android:id="@+id/result"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:text="My name is jatin"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                android:textColor="@color/nayablue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>

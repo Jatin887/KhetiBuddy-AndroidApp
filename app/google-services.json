@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955375691447",
+    "project_id": "khetibuddy-7494d",
+    "storage_bucket": "khetibuddy-7494d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955375691447:android:7476e7e85fa5610188cf32",
+        "android_client_info": {
+          "package_name": "com.agriculturalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955375691447-tk8273gs38m7kaqo1kj5nm2kh20mvk6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwCn0qZiZ8aM9yXm9Rd9-qtDewxLVg18Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955375691447-tk8273gs38m7kaqo1kj5nm2kh20mvk6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
