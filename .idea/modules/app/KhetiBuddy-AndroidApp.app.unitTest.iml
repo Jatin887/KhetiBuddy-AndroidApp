@@ -27,8 +27,8 @@
     <content url="file://$MODULE_DIR$/../../../app/src/testDebug" />
     <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="KhetiBuddy.app.main" scope="TEST" />
-    <orderEntry type="library" scope="TEST" name="Gradle: C./Users/DeLL/AndroidStudioProjects/KhetiBuddy/libs/sqliteassethelper-2.0.1.jar" level="project" />
+    <orderEntry type="module" module-name="KhetiBuddy-AndroidApp.app.main" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: C./Users/DeLL/AndroidStudioProjects/KhetiBuddy/KhetiBuddy-AndroidApp/libs/sqliteassethelper-2.0.1.jar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.mcxiaoke.volley:library:1.0.19" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-gson:2.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
@@ -92,5 +92,5 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="KhetiBuddy.app.main" />
+  <component name="TestModuleProperties" production-module="KhetiBuddy-AndroidApp.app.main" />
 </module>
