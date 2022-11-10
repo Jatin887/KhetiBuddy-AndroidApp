@@ -21,12 +21,9 @@ Dataset link: https://data.gov.in/resources/district-wise-season-wise-crop-produ
 ## Data Modeling
 Prediction models used :
 -	Random Forest Regressor (For predicting crop yield).
--	Multi Class Neural Network (For predicting crop variaties). 
-
 ## Built With
 -	Android Studio - The mobile framework used
--	Maven - Dependency Management
--	Azure – Cloud Service Provider ( Used to generate web service)
+-	Cloud Service Provider ( Used to generate web service)
 ## Permissions required for the application
 This app requires the following permissions:
 -	Full Network Access.
