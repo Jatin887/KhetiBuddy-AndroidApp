@@ -12,7 +12,7 @@ The user just has to pass some parameters and submit it.The random forest algori
 - Provides an insights of crop yield production to the farmers by predicting the outcome of the crop on various input factors.
 - Recommend crop varieties suitable a particular land using machine learning algorithm.
 - Also provides 7 day weather forecast.
-- Uses Azure Machine Learning Webservice as backend.
+- Cloud Service to deploy Machine Learning Model as backend.
 # Data Understanding
 ## Crop Data
 The data refers to district wise, crop wise, season wise and year wise data on crop covered area and production. The data is being used to study and analyse crop production, production contribution to district/State/country, Agro-climatic zone wise performance, and high yield production order for crops, crop growing pattern and diversification.
